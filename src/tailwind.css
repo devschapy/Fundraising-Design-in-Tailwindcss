@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* h1,h2,h3 er orginal size mainen */
+/* @layer base {
+    h1 {
+        @apply font-size:50px;
+    }
+} */
+
+    /* onk gula class ke grup system banano */
+@layer components {
+    .container-i {
+        @apply w-10/12
+    }
+    .btn{
+        @apply py-2 lg:py-2.5 px-5 font-bold border rounded-full focus:ring-1 ring-offset-2 transform duration-500
+    }
+    .btn-green{
+        @apply text-green-i border-green-i hover:border-blue-i hover:bg-blue-i  hover:text-white ring-blue-i
+    }
+    .btn-blue{
+        @apply text-white border-blue-i bg-blue-i  hover:bg-white hover:text-green-i hover:border-green-i  ring-green-i
+    }
+}
+
+
+
+/* nijer banano castom class with css  */
+/* @layer utilities {
+    .text-green{
+        color: #91C610;
+    }
+    .text-blue{
+        color:#016FD3;
+    }
+    .bg-green{
+        background-color:#91C610;
+    }
+    .bg-blue{
+        background-color:#016FD3;
+    }
+} */
+
+/* @variants hover, focus{} -- nijer banano kono class ke hover iffect deoar jonno */
+
+@variants hover {
+    .text-green{
+        color: #91C610;
+    }
+}
