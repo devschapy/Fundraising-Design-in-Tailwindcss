@@ -23,6 +23,15 @@
     .btn-blue{
         @apply text-white border-blue-i bg-blue-i  hover:bg-white hover:text-green-i hover:border-green-i  ring-green-i
     }
+    .under-menu{
+        @apply text-white font-semibold hover:text-blue-i
+    }
+    .banner-btn-green{
+        @apply text-xs sm:text-sm text-green-i border-green-i hover:bg-black hover:bg-opacity-5 hover:text-white hover:border-blue-i ring-offset-1 ring-blue-i
+    }
+    .banner-btn-blue{
+        @apply text-xs sm:text-sm text-white border-green-i bg-black bg-opacity-5 hover:bg-blue-i hover:text-green-i ring-offset-1 ring-blue-i 
+    }
 }
 
 
